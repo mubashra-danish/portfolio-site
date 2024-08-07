@@ -1,0 +1,196 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <style type="text/css">
+        body {
+            background-image: url("https://static.vecteezy.com/system/resources/previews/007/409/657/non_2x/abstract-white-and-gray-color-modern-design-background-with-geometric-shape-illustration-vector.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .logo {
+            width: 60px;
+            height: 60px;
+            background-repeat: no-repeat;
+            position: relative;
+            right: 70px;
+            top: -10px;
+        }
+
+        .text {
+            color: black;
+        }
+
+  .nav-link {
+            color: black !important;
+            font-family: 'Roboto', sans-serif;
+            margin-right: 20px;
+            font-weight: 500;
+            padding: 6px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        .nav-link:hover {
+            color: #0b7478 !important;
+            background-color: rgba(0, 0, 0, 0.1) !important;
+            text-decoration: none;
+        }
+
+        .passion {
+            position: relative;
+            left: 20px;
+        }
+
+        .bio1 {
+            font-size: 24px;
+            font-family: "Montserrat", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: <weight>;
+            font-style: normal;
+            position: relative;
+            left: 25px;
+        }
+
+        .bio2 {
+            font-size: 24px;
+            font-family: "Montserrat", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: <weight>;
+            font-style: normal;
+            position: relative;
+            left: 30px;
+        }
+
+        .project-section {
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: #0b7478;
+              box-shadow: 0 5px 8px rgba(11, 116, 120, 0.5);
+/*            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
+        }
+
+        .project-title {
+            font-size: 30px;
+            color: #0b7478;
+            margin-bottom: 20px;
+        }
+
+        .project-description {
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+
+        .project-image {
+            width: 50%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+.img-cont{
+    display: flex;
+    flex-direction: row;
+}
+p{
+    color: #0b7478;
+}
+              @media (max-width: 768px) {
+            .logo {
+                width: 40px;
+                height: 40px;
+                margin-left: 60px;
+            }
+        }
+                 @media (max-width: 1100px) {
+            .logo {
+                width: 55px;
+                height: 55px;
+                margin-left: 50px;
+            }
+        }
+        @media (max-width: 500px) {
+    .logo {
+        margin-left: 70px;
+    }
+}
+
+
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light nav-bar-background">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="https://i.pinimg.com/236x/84/00/a7/8400a70d92f8670850e670eb148140f4.jpg" class="logo" /></a>
+            <button class="navbar-toggler bg-light ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-link active" id="navItem1" href="home.html">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" id="navItem2" href="about.html">About</a>
+                    <a class="nav-link" id="navItem3" href="skills.html">Skills</a>
+                    <a class="nav-link" id="navItem4" href="project.html">Projects</a>
+                    <a class="nav-link" id="navItem5" href="contact.html">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-10">
+                <div class="project-section">
+                    <h3 class="text-center project-title">My Projects</h3>
+                    <div class="project-description">
+                        <h4>Project 1: To-Do List Application</h4>
+                        <p>This is a simple to-do list application built using HTML,CSS and JavaScript. It allows users to add, edit, and delete tasks.</p>
+                           <div class="img-cont">
+                            <img src="todo2.jpg" class="project-image">
+                        <img src="todo.jpg" class="project-image">
+                        
+
+                    </div>
+                    </div>
+                    <div class="project-description">
+                        <h4>Project 2: Wikipedia Search Application</h4>
+                        <p>This project is a Wikipedia search application built using HTML, CSS, and JavaScript. It allows users to search for and display Wikipedia articles.</p>
+                      <div class="img-cont">
+                        <img src="wiki.jpg" class="project-image">
+                        <img src="wiki2.jpg" class="project-image">
+                    </div>
+                    </div>
+                    <div class="project-description">
+                        <h4>Project 3: Amazon Prime Video Clone</h4>
+                        <p>This project is an Amazon Prime Video clone built using React and Node.js. It features a user interface similar to Amazon Prime Video, allowing users to browse and watch video content.</p>
+           <div class="img-cont">
+                        <img src="prime.jpg" class="project-image">
+                        <img src="prime2.jpg" class="project-image">
+                    </div>
+                    </div>
+                     <div class="project-description">
+                        <h4>Project 4: CSS Color Gradient Generator</h4>
+                        <p>This project is a CSS color gradient generator built using HTML, CSS, and JavaScript. It allows users to create and customize gradients easily.</p>
+                        <div class="img-cont">
+                            <img src="gradient.jpg" class="project-image w-100">
+                           
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

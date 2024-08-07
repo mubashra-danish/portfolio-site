@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <style>
+        /* Basic CSS for styling the navbar */
+        body {
+            background-image: url("https://static.vecteezy.com/system/resources/previews/007/409/657/non_2x/abstract-white-and-gray-color-modern-design-background-with-geometric-shape-illustration-vector.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+.welc{
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 30px;
+}
+        .logo {
+            width: 60px;
+            height: 60px;
+            background-repeat: no-repeat;
+            position: relative;
+            right: 77px;
+            top: -10px;
+        }
+
+        .text {
+            color: black;
+        }
+
+  .nav-link {
+            color: black !important;
+            font-family: 'Roboto', sans-serif;
+            margin-right: 20px;
+            font-weight: 500;
+            padding: 6px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        .nav-link:hover {
+            color: #0b7478 !important;
+            background-color: rgba(0, 0, 0, 0.1) !important;
+            text-decoration: none;
+        }
+
+        .img {
+            height: 350px;
+            width: 350px;
+            border-radius: 50%;
+            position: absolute;
+            top: 170px;
+            left: 980px;
+        }
+
+        h1 {
+            font-family: "Playwrite PL", cursive;
+            font-size: 20px;
+            font-optical-sizing: auto;
+            font-weight: normal;
+            font-style: normal;
+            position: relative;
+            left: 20px;
+        }
+
+        .bio {
+            font-size: 24px;
+            font-family: "Montserrat", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: normal;
+            font-style: normal;
+            position: relative;
+            left: 20px;
+        }
+        .head2{
+ position: relative;
+            left: 20px;
+        }
+        .workbtn{
+            border:2px solid #0b7478;
+            border-radius: 5px;
+            font-weight: bold;
+            color: #0b7478;
+            padding: 8px 16px;
+            cursor: pointer;
+            position: relative;
+            left: 20px;
+
+        }
+         .workbtn:hover {
+            color: white;
+            background-color: #0b7478;
+
+            
+        }
+        @media (max-width: 768px) {
+    .welc, .head2 {
+        text-align: center;
+        left: 0;
+        font-size: 30px;
+    }
+    .bio{
+        text-align: center;
+        left: 0;
+        font-size: 14px;
+    }
+
+    .img {
+        position: static;
+        margin: 20px auto;
+        display: block;
+    }
+
+    .workbtn {
+        display: block;
+        margin: 20px auto;
+        left: 0;
+    }
+}
+              @media (max-width: 768px) {
+            .logo {
+                width: 40px;
+                height: 40px;
+                margin-left: 60px;
+            }
+        }
+                 @media (max-width: 1100px) {
+            .logo {
+                width: 55px;
+                height: 55px;
+                margin-left: 50px;
+            }
+        }
+        @media (max-width: 600px) {
+    .logo {
+        margin-left: 70px;
+    }
+}
+
+    </style>
+</head>
+
+ <body>
+    <nav class="navbar navbar-expand-lg navbar-light nav-bar-background">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="https://i.pinimg.com/236x/84/00/a7/8400a70d92f8670850e670eb148140f4.jpg" class="logo" /></a>
+            <button class="navbar-toggler bg-light ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-link active" id="navItem1" href="home.html">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" id="navItem2" href="about.html">About</a>
+                    <a class="nav-link" id="navItem3" href="skills.html">Skills</a>
+                    <a class="nav-link" id="navItem4" href="project.html">Projects</a>
+                    <a class="nav-link" id="navItem5" href="contact.html">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sections of the website -->
+<br>
+    <h1 class="welc">Welcome to My Creative Space</h1>
+    <br>
+    <h2 style="color: #0b7478;" class="head2">Hi, I'm <span style="color: #0f8385;">Mubashrah Danish</span> -- Web Developer</h2>
+    <br>
+    <p style="color: #0b7478;" class="bio">"I am Mubashra Danish, a passionate web developer and designer based in Lucknow.<br> With a BCA degree and over 1 years of experience in creating <br> visually appealing and functional websites, I specialize in front-end development,<br> responsive design, and enhancing user experience. My journey in web development <br> began with a curiosity for how things work on the internet, and it has <br>evolved into a fulfilling career where I get to blend creativity with technical skills.<br> I thrive on solving complex problems and am always eager to learn new<br> technologies to improve my craft."</p>
+    <a href="project.html"><button  class="workbtn">Check my work here</button></a>
+    <img src="https://i.pinimg.com/736x/28/5b/cd/285bcd6846a756b745a8e9fa0214a4d6.jpg" class="img">
+
+</body>
+
+</html>

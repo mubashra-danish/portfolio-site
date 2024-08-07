@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <style type="text/css">
+        body {
+            background-image: url("https://static.vecteezy.com/system/resources/previews/007/409/657/non_2x/abstract-white-and-gray-color-modern-design-background-with-geometric-shape-illustration-vector.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .logo {
+            width: 60px;
+            height: 60px;
+            background-repeat: no-repeat;
+            position: relative;
+            right: 70px;
+            top: -10px;
+        }
+
+        .text {
+            color: black;
+        }
+
+        label {
+            color: #0b7478;
+            font-size: 18px;
+            font-weight: 500;
+        }
+
+        .nav-link {
+            color: black !important;
+            font-family: 'Roboto', sans-serif;
+            margin-right: 20px;
+            font-weight: 500;
+            padding: 6px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        .nav-link:hover {
+            color: #0b7478 !important;
+            background-color: rgba(0, 0, 0, 0.1) !important;
+            text-decoration: none;
+        }
+
+        .contact-section {
+            padding: 30px;
+            background-image: url("https://i.pinimg.com/564x/4e/30/be/4e30befc72ef73b8ba6263b8c820313f.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 30px auto;
+            border-radius: 20px;
+            box-shadow: 0 5px 8px rgba(11, 116, 120, 0.5);
+        }
+
+        .contact-section h2 {
+            text-align: center;
+            margin-bottom: 40px;
+            font-family: "Montserrat", sans-serif;
+        }
+
+        .contact-info {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .contact-info p {
+            margin: 0;
+            font-size: 18px;
+            font-weight: 400;
+        }
+
+        .contact-info a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .form-control {
+            border-radius: 0;
+            box-shadow: none;
+        }
+
+        .btn-submit {
+            border: 2px solid #0b7478;
+            border-radius: 5px;
+            font-weight: bold;
+            color: #0b7478;
+            padding: 8px 16px;
+            cursor: pointer;
+        }
+
+        .btn-submit:hover {
+            color: white;
+            background-color: #0b7478;
+        }
+              @media (max-width: 768px) {
+            .logo {
+                width: 40px;
+                height: 40px;
+                margin-left: 60px;
+            }
+        }
+        @media (max-width: 1100px) {
+            .logo {
+                width: 55px;
+                height: 55px;
+                margin-left: 50px;
+            }
+        }
+@media (max-width: 500px) {
+    .logo {
+        margin-left: 70px;
+    }
+}
+
+
+
+    </style>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light nav-bar-background">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="https://i.pinimg.com/236x/84/00/a7/8400a70d92f8670850e670eb148140f4.jpg" class="logo" /></a>
+            <button class="navbar-toggler bg-light ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-link active" id="navItem1" href="home.html">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" id="navItem2" href="about.html">About</a>
+                    <a class="nav-link" id="navItem3" href="skills.html">Skills</a>
+                    <a class="nav-link" id="navItem4" href="project.html">Projects</a>
+                    <a class="nav-link" id="navItem5" href="contact.html">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="contact-section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <div class="contact-info">
+                <p>Email: <a href="mailto:mubashradanish26@gmail.com">mubashradanish26@gmail.com</a></p>
+                <p>Phone: <a href="tel:+918957578151">+91 8957578151</a></p>
+                <p>Location: Lucknow, Uttar Pradesh, India</p>
+                <p>
+                    <a href="https://www.linkedin.com/in/mubashra-danish" target="_blank">LinkedIn</a> |
+                    <a href="https://github.com/mubashra-danish" target="_blank">GitHub</a>
+                </p>
+            </div>
+
+            <form class="contact-form" onsubmit="return validateForm(event)">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Your Email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="5" placeholder="Your Message"></textarea>
+                </div>
+                <div id="error-message" class="text-danger" style="display:none;">Please fill out all fields.</div>
+                <button type="submit" class="btn btn-submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="submitModal" tabindex="-1" aria-labelledby="submitModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="submitModalLabel">Submission Successful</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Thank you for your message. We will get back to you shortly.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function validateForm(event) {
+            event.preventDefault();
+            var name = document.getElementById("name").value;
+            var email = document.getElementById("email").value;
+            var message = document.getElementById("message").value;
+            var errorMessage = document.getElementById("error-message");
+
+            if (name === "" || email === "" || message === "") {
+                errorMessage.style.display = "block";
+                return false;
+            } else {
+                errorMessage.style.display = "none";
+                $('#submitModal').modal('show');
+                return true;
+            }
+        }
+   
+
+    </script>
+</body>
+
+</html>
